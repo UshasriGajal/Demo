@@ -1,0 +1,36 @@
+#email_div{
+    padding-left: 80px;
+    padding-top: 100px;
+    padding-right: 80px;
+    border: 2px solid rgb(243, 63, 186);
+    /* border-color: rgb(123, 172, 240); */
+    height: 300px;
+    width: 150px;
+    background-color: rgb(243, 129, 243);
+}
+#div{
+     padding-left: 30px;
+    padding-top: 30px;
+    /* padding-right: 80px;  */
+    height: 430px;
+    width: 350px;
+    border: 2px solid rgb(40, 108, 234);
+    background-color:rgb(123, 172, 240) ;
+}
+#email_input{
+    height: 20px;
+    width: 200px;
+    border-color:  rgb(123, 172, 240);
+}
+#password_input{
+    height: 20px;
+    width: 200px;
+    border-color:  rgb(123, 172, 240);
+}
+#submit_button{
+    width: 70px;
+    /* font-size: 1px; */
+    height: 20px;
+    background-color: rgb(123, 172, 240);
+    border-color: rgb(44, 112, 220);
+}

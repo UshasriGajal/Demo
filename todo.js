@@ -3,8 +3,6 @@ count=1
 function add(){
    
     var x=document.getElementById("input").value 
-    // x.setAttribute("id","value_"+count)
-    // document.body.append(x)
     var span=document.createElement("span")
     span.setAttribute('id','spanItem_'+count)
 
@@ -96,8 +94,9 @@ function updateItem(){
     var updateElement = document.getElementById("updateItem_"+currentId)
     updateElement.style.display="none"
    
-    
-}
+     
+}  
+
 
 
 // edit function

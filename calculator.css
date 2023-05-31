@@ -1,0 +1,75 @@
+body{
+    background-color: white;
+}
+.new{
+    border: 2px solid black;
+    /* padding: 5px gray; */
+    
+    /* border-color: gray */
+    height: 600px;
+    width: 500px;
+    /* background-color:white; */
+    /* border: 10px; */
+    /* border-color: rgb(139, 14, 14); */
+}
+#fix{
+    /* position: fixed; */
+    background-color: white;
+    height: 70px;
+    width: 100%;
+}
+#enterspace{
+    height:200px;
+    background-color:whitesmoke;
+}
+#numberspace{
+    height:250px;
+    /* background-color: white; */
+    width: 100%;
+
+
+}
+.button{
+    height: 100%;
+    width: 20%;
+    float: left;
+    background-color: white;
+    border-radius: 20px;
+    border-color: white;
+}
+.row{
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+}
+.button1{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    border-color: white;
+}
+.colour{
+    text-align: center;
+    color: orangered;
+}
+.black{
+    text-align: center;
+    }
+#circle{
+    text-align: center;
+    border-radius: 50px;
+    background-color: orangered;
+    width: 60px;
+    border-color: white;
+}
+.white{
+    color: white;
+}
+#menu{
+width: 30px;
+height: 4px;
+background-color: black;
+margin: 6px 0;
+}
