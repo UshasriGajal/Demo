@@ -120,12 +120,12 @@
 // // i=i-1                                  
 // // console.log(fact)
    
-var x=2
-var count=[]
-for(var i=0;i<100;i++){
-    count.push(x*i)
-}
-console.log(count)
+// var x=2
+// var count=[]
+// for(var i=0;i<100;i++){
+//     count.push(x*i)
+// }
+// console.log(count)
 
 // /* to find substring in a string*/
 // // var str="this is not a number"
@@ -421,59 +421,59 @@ console.log(count)
 // // usha.map((i)=>i > 0 ? x.push(i) : console.log("no"))
 // // // x=usha.filter((i)=>i===8)
 // // console.log(x)
-var person = {
-    1:{
-        Name  :"ushasri",
-        age: 19,
-        branch:"it"
-    },
-    2:{
-        Name:"vishnu",
-        age:20,
-        branch:"it"
-    },
-    3:{
-        Name:"naveen",
-        age :20,
-        branch:"it",
-        sub:{
-            sub1:"maths",
-            sub2:"science",
-            sub3:"social"
-        }
-    }
-}
-// console.log(person[3].sub.sub1)
-// //     3:{
+// var person = {
+//     1:{
+//         Name  :"ushasri",
+//         age: 19,
+//         branch:"it"
+//     },
+//     2:{
+//         Name:"vishnu",
+//         age:20,
+//         branch:"it"
+//     },
+//     3:{
+//         Name:"naveen",
+//         age :20,
+//         branch:"it",
+//         sub:{
+//             sub1:"maths",
+//             sub2:"science",
+//             sub3:"social"
+//         }
+//     }
+// }
+// // console.log(person[3].sub.sub1)
+// // //     3:{
 
-// //     }
+// // //     }
 
-// // }
+// // // }
 
 // // // console.log(Object.values(person[2].sub[1]))
 
-var person1 = {
-    1:[
-        Name ="ushasri",
-        age= 19,
-        branch="it"
-    ],
-    2:[
-        Name="vishnu",
-        age=20,
-        branch="it"
-    ],
-    3:[
-        Name="naveen",
-        age =20,
-        branch="it",
-        sub={
-            1:"maths",
-            2:"science",
-            3:"social"}
-    ]
-}
-console.log(person1[3][3][3])
+// var person1 = {
+//     1:[
+//         Name ="ushasri",
+//         age= 19,
+//         branch="it"
+//     ],
+//     2:[
+//         Name="vishnu",
+//         age=20,
+//         branch="it"
+//     ],
+//     3:[
+//         Name="naveen",
+//         age =20,
+//         branch="it",
+//         sub={
+//             1:"maths",
+//             2:"science",
+//             3:"social"}
+//     ]
+// }
+// console.log(person1[3][3][3])
 
 
 // // var x=[1,2,3,4,5,6]
@@ -537,3 +537,64 @@ console.log(person1[3][3][3])
 // console.log(str)
 // var input1=input.split("\n")
 //     var line=input1[1].split(" ")
+var Name="Sanganapalli usha sri gajal"
+Name=Name.split(" ")
+var newname=Name.map((i)=>i[0])
+// console.log(newname.join(""))
+const input = [
+	{
+	  name: "John",
+	  age: 13,
+	},
+	{
+	  name: "Mark",
+	  age: 56,
+	},
+	{
+	  name: "Rachel",
+	  age: 45,
+	},
+	{
+	  name: "Nate",
+	  age: 67,
+	},
+	{
+	  name: "Jennifer",
+	  age: 65,
+	},
+  ];
+var age=input.map((i)=>i.age)
+var max=Math.max(...age)
+var min=Math.min(...age)
+var diff=max-min
+// console.log(min,max,diff)
+var x=5
+// const data = [
+//     {
+//         name: 'Hilton',
+//         rating: 4.7
+//     },
+//     {
+//         name: 'Best Western',
+//         rating: 3.8
+//     },
+//     {
+//         name: 'Bob\'s Hotel',
+//         rating: 2.5
+//     },
+//     {
+//         name: 'Marriot',
+//         rating: 4.2
+//     }
+// ];
+// var fact=data.filter((i)=>i.rating<3)
+// console.log(fact)
+// const data = ['', 'a', 'bc', 'def', 'ghij', 'klmno', 'pqrstu', 'vwxyz12'];
+// var length=data.map((i)=>i.length)
+// var max=Math.max(...length)
+// var fact=data.filter((i)=>i.length==max)
+// console.log(fact)
+const data = ['aa', 'bb', 'cc', 'dd', 'ee', 'aa', 'bb', 'cc'];
+var dup=data.map((i)=>i==i+1)
+// var dup=data.filter((i)=>i==i+1)
+console.log(dup)
